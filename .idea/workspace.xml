@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1147f10-1957-4b3b-baf3-0eec7ac7de19" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/CMS.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMS/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMS/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMS/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMS/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/rosterbots.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/css/bootstrap-lumen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/static/myems/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/templates/myems/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/templates/myems/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/templates/myems/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/templates/myems/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/templates/myems/table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/templatetags/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/templatetags/tags_extra.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myems/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="" />
-    </list>
+    <list default="true" id="b1147f10-1957-4b3b-baf3-0eec7ac7de19" name="Default" comment="" />
     <ignored mask=".pyc" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -236,7 +192,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4786932" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
