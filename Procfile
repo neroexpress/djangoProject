@@ -1,1 +1,1 @@
-web: gunicorn myems.wsgi --log-file -
+web: gunicorn CMS.wsgi --log-file -
