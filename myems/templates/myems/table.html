@@ -1,0 +1,68 @@
+{% extends "myems/about.html" %}
+{% load tags_extra %}
+
+{% block title %}
+    <h2></h2>
+    <a class="btn btn-primary" href="{% url 'myems:table' %}">
+        GENERATE ROSTER AGAIN</a>
+{% endblock %}
+
+{% block content %}
+    <h3>Starter Players</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Robot Name</th>
+            <th>Sequence Number</th>
+            <th>Speed</th>
+            <th>Agility</th>
+            <th>Strength</th>
+            <th>Player's Attribute Score</th>
+        </tr>
+    </thead>
+    {% for player in players|slice:":10" %}
+        <tbody>
+            <tr>
+                <th scope="row">{{ forloop.counter }}</th>
+                <td>{{ player.n }}</td>
+                <td>{{ player.sn }}</td>
+                <td>{{ player.sl.0 }}</td>
+                <td>{{ player.sl.1 }}</td>
+                <td>{{ player.sl.2 }}</td>
+                <td>{{ player.sl | running_total }}</td>
+            </tr>
+        </tbody>
+    {% endfor %}
+</table>
+
+<h3>Substitute Players</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Robot Name</th>
+            <th>Sequence Number</th>
+            <th>Speed</th>
+            <th>Agility</th>
+            <th>Strength</th>
+            <th>Player's Attribute Score</th>
+        </tr>
+    </thead>
+    {% for player in players|slice:"10:" %}
+        <tbody>
+            <tr>
+                <th scope="row">{{ forloop.counter | add:"10" }}</th>
+                <td>{{ player.n }}</td>
+                <td>{{ player.sn }}</td>
+                <td>{{ player.sl.0 }}</td>
+                <td>{{ player.sl.1 }}</td>
+                <td>{{ player.sl.2 }}</td>
+                <td>{{ player.sl.0 | add:player.sl.1| add:player.sl.2 }}</td>
+            </tr>
+        </tbody>
+    {% endfor %}
+</table>
+    <h3>Total attribute score for the Robot Sports Team: {{ score_sum }}</h3>
+
+{% endblock %}

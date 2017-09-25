@@ -1,0 +1,31 @@
+{% extends "myems/base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h2>Welcome to the Robot Sports Team!</h2>
+    <p class="lead">It's not the team with the best players that win. It's the players with the best team that wins.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Overview</h2>
+        <p style="text-align: justify">
+            This site shows the roster for the Robot Sports Team. The site generates a random list of robo players with
+            their attributes like Speed, Agility, and Strength. The Values are set to a random number making the total sum
+            for the whole team below 175.<br/>
+            The players have a unique and easy to remember name. The players also have a unique alphanumeric sequence number
+            which is generated at runtime and will be different each time the website is loaded.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <h2>Working Details</h2>
+        <p style="text-align: justify">The implementation of this website is done on Django Python framework. The site uses
+        Django DTL syntax for embedding server code into web pages at runtime.<br/>
+        The actual algorithm to generate the attributes related to players is implemented into a python file which is generate
+            a list and this is consumed into views.
+        The code inside the python file returns a list of objects which is consumed by the Django view code.
+        </p>
+    </div>
+</div>
+
+{% endblock %}
